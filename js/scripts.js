@@ -12,3 +12,14 @@ $(document).ready(function(){
     }
   });
 });
+
+$(document).ready(function() {
+  $('#contactUs form').submit(function() {
+    var nameInput = $('input#name').val();
+    var emailInput = $('input#email').val();
+    var mrssageInput = $('input#message').val();
+    alert('Thank you '+ nameInput + ', we have received your message!')
+    document.getElementById("#contactUs").reset();
+    event.preventDefault();
+  })
+})
