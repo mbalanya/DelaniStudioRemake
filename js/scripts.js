@@ -19,13 +19,14 @@ $(document).ready(function() {
     var emailInput = $('input#email').val();
     var mrssageInput = $('input#message').val();
     alert('Thank you '+ nameInput + ', we have received your message!')
-    document.getElementById("#contactUs").reset();
+  //  document.getElementById("#contactUs").reset();
     event.preventDefault();
   })
 })
-
+/*
 $(document).ready(function() {
   $('#portfolio ').hover(function(){
     $(this).
   })
 })
+*/
