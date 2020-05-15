@@ -23,3 +23,9 @@ $(document).ready(function() {
     event.preventDefault();
   })
 })
+
+$(document).ready(function() {
+  $('#portfolio ').hover(function(){
+    $(this).
+  })
+})
