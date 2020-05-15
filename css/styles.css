@@ -8,6 +8,8 @@ html, body {
 }
 .navbar {
   padding: 16px;
+  display: block;
+  color: #f2f2f2;
 }
 .navbar-nav li {
   padding-right: 20px;
@@ -50,7 +52,7 @@ html, body {
 .fa-skype:hover,
 .fa-stumble:hover,
 .fa-behance:hover,
-.fa-pinterest:hover, 
+.fa-pinterest:hover,
 .fa-flickr:hover {
   color: #d5d5d5;
 }
@@ -71,4 +73,9 @@ h1 {
 
 .contact-banner {
   background-image: url('../img/backgrounds/c_image.jpg');
+  max-width: 100%;
+}
+.form-area {
+  max-width: 50%;
+  transform: translateX(50%);
 }

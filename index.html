@@ -18,22 +18,22 @@
         <div class="collapse navbar-collapse" id='navbarResponsive'>
           <ul class='navbar-nav ml-auto'>
             <li class="nav-item active">
-              <a class="nav-link "href="#">Home</a>
+              <a class="nav-link "href="#slider">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link "href="#">About Us</a>
+              <a class="nav-link "href="#aboutUs">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link "href="#">Services</a>
+              <a class="nav-link "href="#services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link "href="#">What We Do</a>
+              <a class="nav-link "href="#whatWeDo">What We Do</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link "href="#">Portfolio</a>
+              <a class="nav-link "href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link "href="#">Contact Us</a>
+              <a class="nav-link "href="#contactUs">Contact Us</a>
             </li>
           </ul>
         </div>
@@ -41,7 +41,7 @@
     </nav>
 
     <!--Slider-->
-    <div id='slides' class='carousel slide' data-ride='carousel'>
+    <div id='slides' class='carousel slide' data-ride='carousel' id='slider'>
       <ul class='carousel-indicators'>
         <li data-target='#slides' data-slide-to='0' class='active'></li>
         <li data-target='#slides' data-slide-to='1'></li>
@@ -79,7 +79,7 @@
 -->
 
   <!--about us-->
-    <div class="container-fluid padding">
+    <div class="container-fluid padding" id='aboutUs'>
       <br class='my-4'>
       <div class="row text-center">
         <div class="col-12">
@@ -97,7 +97,7 @@
     </div>
 
     <!--services-->
-      <div class="container-fluid padding services-banner">
+      <div class="container-fluid padding services-banner" id='services'>
         <br class='my-4'>
         <div class="row text-center">
           <div class="col-12">
@@ -126,7 +126,7 @@
     </div> -->
 
     <!--What we do-->
-    <div class="col-12 text-center">
+    <div class="col-12 text-center" id='whatWeDo'>
       <br class='my-4'>
         <h1 class='display-4'>WHAT WE DO</h1>
     </div>
@@ -159,7 +159,7 @@
     </div> -->
 
     <!--portfolio-->
-    <div class="container-fluid padding">
+    <div class="container-fluid padding" id='portfolio'>
       <div class="row">
         <div class="col-12 text-center">
           <br class='my-4'>
@@ -188,30 +188,37 @@
       </div>
     </div>
 
-    <div class="jumbotron contact-banner">
-      <div class="container">
-        <div class="row">
-          <h3>CONTACT US</h3>
-          <form class="" action="index.html" method="post">
-            <div class="">
-              <label for="name">Name: </label>
-              <input type="text" name="" value="">
-            </div>
-            <div class="">
-              <label for="email">Email: </label>
-              <input type="text" name="" value="">
-            </div>
-            <div class="">
-              <label for="message">Message</label>
-              <input type="text" name="" value="">
-            </div>
-          </form>
+    <!--contact us-->
+    <div class="container-fluid padding contact-banner" id='contactUs'>
+      <div class="row">
+        <div class="col-12 text-center">
+          <br class='my-4'>
+          <h1 class="display-4">CONTACT US</h1>
         </div>
       </div>
+      <div class="col-md-12 form-area">
+        <div class="form-group">
+          <label for="name">Name: </label>
+          <input type="text" class='form-control' name="" value="" placeholder="Name:">
+        </div>
+        <div class="form-group">
+          <label for="name">Email: </label>
+          <input type="email" class='form-control' name="" value="" placeholder="Email:">
+        </div>
+        <div class="form-group">
+          <label for="name">Message: </label>
+          <textarea name="message" class='from-control'rows="8" cols="63" placeholder="Type your messahe here..."></textarea>
+        </div>
+        <div class="form-group">
+          <button type="button" class='btn btn-primary btn-block' name="button">Send!</button>
+        </div>
+      </div>
+      <br class='my-4'>
     </div>
+    <br class='my-4'>
 
     <!--social-->
-    <div class="container-fluid padding text-center">
+    <div class="container-fluid padding text-center" id='social'>
       <div class="row padding">
         <br class='my-4'>
         <div class="col-12 social padding">
