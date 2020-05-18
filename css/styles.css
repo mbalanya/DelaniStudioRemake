@@ -70,3 +70,12 @@ html, body {
   max-width: 50%;
   transform: translateX(50%);
 }
+#designP {
+  display: none;
+}
+#developmentP {
+  display: none;
+}
+#productManagementP {
+  display: none;
+}
