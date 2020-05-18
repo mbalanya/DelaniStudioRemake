@@ -79,3 +79,11 @@ html, body {
 #productManagementP {
   display: none;
 }
+/*#blackProject, #haveAGoodDayProject, #mightyOntarioProjrct, #buttonStylesProject, #materialImageProject, #burnedLogoProject, #jimCarreyProject, #baileyWonderProject {
+
+}*/
+#projects h2 {
+  padding-top: 135px;
+  padding-bottom: 135px;
+  display: none;
+}
